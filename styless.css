@@ -1,0 +1,54 @@
+h1{
+    color:blue;
+    background-color: black;
+    padding: 5px;
+    font-style: italic;
+    text-align: center;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+body{
+    background-color:black;
+    text-align: center;
+}
+h2{
+    color:red;
+}
+h3{
+    color: blueviolet;
+}
+button{
+    color: bisque;
+    background-color: blue;
+    align-items: center;
+}
+p{
+    color: red;
+}
+#heading{
+    color: aquamarine   ;
+}
+.para{
+    color:white;
+}
+ol{
+    color: aliceblue;
+    text-align: center;
+}
+div{
+    color: aliceblue;
+    background-color: aqua;
+    height: 180px;
+    width: 100px;
+    border: 10px white;
+    padding: 0px;
+    border: 10px;
+    text-align: center;
+}
+.dark{
+    background-color: white;
+    color: black;
+}
+.light{
+    background-color: black;
+    color:white;
+}

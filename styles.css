@@ -1,0 +1,89 @@
+*{
+    padding: 0%;
+    margin: 0px;
+}
+body{
+    background-color: #000000;
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+    color: white;
+    padding: 0%;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height:18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    color: black;
+    background-color: white;
+}
+#btn{
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border:none;
+}
+/* .msg{
+    background-color: aliceblue;
+    padding: 1rem;  
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border:none;
+    width:10vmin;
+    height: 1vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} */
+#msg{
+    display: flex;
+    flex-wrap: wrap;;
+    justify-content: center;
+    align-items: center;
+
+}
+ .msg{
+    color: white;
+    font-size: 30px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:2rem;
+
+ }
+
+ #new{
+    background-color:white;
+    color: black;
+    height: 30px;
+    width: 150px;
+ }
+ .hide{
+    display: none;
+ }
