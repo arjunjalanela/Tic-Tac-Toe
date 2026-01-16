@@ -11,6 +11,8 @@
 // console.log(z|c);
 // let bete=10;
 
+const { response } = require("express");
+
 // const { text } = require("express");
 
 // // console.log(bete);
@@ -443,3 +445,120 @@ let i=1;
 //         console.log(mode);
 //     }
 // });
+// const emp = {
+//     calcTax(){
+//         console.log("tax is upto 5%")
+//     },
+// };
+// const arjun={
+//     salary:30000
+// };
+// arjun.__proto__=emp;
+// class MaruthiCar{
+//     constructor(){
+//         console.log("betee")
+//     }
+//     start(){
+//     console.log("start");
+//     }
+//     stop(){
+//         console.log("stop");
+//     }
+//     setBrand(brand){
+//         this.brand=brand;
+//     }
+// }
+// // let fort=new MaruthiCar();
+// // fort.start();
+// let lexsus=new MaruthiCar();
+// lexsus.setBrand("lexsus");
+// class User{
+//     constructor(name,email){
+//         this.name=name;
+//         this.email=email;
+//     }
+//     viewData(){
+//         console.log(`Name is ${this.name} and email is ${this.email }`)
+//     }
+// }
+// class Admin extends User{
+//     editData(){
+        
+//     }
+// }
+// function hello(){
+//     console.log("hello");
+// }
+// setTimeout(hello,2000);
+// console.log("one")
+// setTimeout(()=>{
+//     console.log("two");
+// },4000);
+// console.log("three");
+// let a=10;
+// let b=20;
+// function sum(a,b){
+//     console.log(a+b);
+// }
+// function calc(a,b,sumCallback){
+//     sumCallback(a,b);
+// }
+// // calc(a,b,sum);
+// calc(1,2,(a,b)=>{
+//     console.log(a+b);
+// });
+// const hello=()=>{
+//     console.log("hello");
+// }
+// setTimeout(hello,2000);
+// function getData(data,getNextData){
+// setTimeout(() => {
+//     console.log("data",data);
+//     if(getNextData){
+//         getNextData();
+//     }
+// }, 2000)
+// }
+// getData(1,()=>{
+//     console.log("getting data 2...")
+//     getData(2,()=>{
+//         console.log("getting data 3...")
+//         getData(3);
+//     });
+// });
+// let promise=new Promise((resolve,reject)=>{
+//     console.log("I am A promise");
+//     resolve(123);
+// });
+// function getData(data,getNextData){
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             console.log("data",data);
+//             resolve("sucess");
+//             if(getNextData){
+//                 getNextData();
+//             }
+//         },5000);
+//     });
+// }
+// getData(1,()=>{
+//     console.log("getting data 2...")
+//     getData(2,()=>{
+//         console.log("getting data 3...")
+//         getData(3);
+//     });
+// });
+// async function asyncFunc(){
+//     setTimeout(()=>{
+//     console.log("hello");
+//     },2000
+// );
+// }
+// asyncFunc();
+//async function always returns a promise
+const URL ="https://cataas.com/cat";
+const getImages=async ()=>{
+    console.log("getting data......");
+    let response=await fetch(URL);
+    console.log(response);
+};

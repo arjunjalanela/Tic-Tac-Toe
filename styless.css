@@ -8,7 +8,11 @@ h1{
 }
 body{
     background-color:black;
+    align-items: center;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 h2{
     color:red;
@@ -51,4 +55,11 @@ div{
 .light{
     background-color: black;
     color:white;
+}
+.box{
+    /* display: flex; */
+    /* flex-wrap: wrap;
+    flex-direction: column; */
+    /* align-items: center; */
+    /* text-align: center; */
 }
